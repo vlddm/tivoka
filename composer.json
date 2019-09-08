@@ -11,9 +11,15 @@
             "email": "mklehr@gmx.net"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dronemill/websocket-php"
+        }
+    ],
     "require": {
         "php": ">=5.3",
-        "textalk/websocket": "1.0.*"
+        "textalk/websocket": "dev-pong"
     },
     "autoload": {
         "psr-0" : {
